@@ -37,7 +37,7 @@
     * Create your own at http://cspisawesome.com
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" href="css/materialize.css">
     <title>Hello World</title>
@@ -65,8 +65,43 @@
 
   <div class="page" id="pageDashboard">
       <nav class="blue center">
-          <span class="titleApp">MinhaLista</span>
+        <div class="nav-wrapper">
+      <a href="#" class="brand-logo">MinhaLista</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a class="targetPage " dt-page='#pageLogin'>Volta</a></li>
+
+      </ul>
+    </div>
+
+
       </nav>
+      <table>
+        <thead>
+          <tr>
+              <th>Name</th>
+              <th>Item Name</th>
+              <th>Item Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
   </div>
 
   <div class="page" id="pageConfiguracoes">
